@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+    height: 0%;
+    background-color: white;
+}
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top:50px;
+    margin-left: 50px;
+    
+    /* border: 1px solid rebeccapurple; */
+   
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+    /* border: 1px solid rgb(180, 24, 115); */
+}
+.nav-item{
+    margin-right: 100px;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.active-item{
+    color: rgb(255, 72, 0);
+    font-weight: bold;
+    
+}
+.action-img{
+    /* border: 1px solid green; */
+ width: 300px;
+}
+
+/* Main content */
+
+.intro-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 30px 50px;
+}
+
+/* left-section */
+
+div>h3{
+    margin-top: 100px;
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 30px;
+    /* border: 1px solid greenyellow; */
+    
+    
+}
+
+div>h3>img{
+    margin-left: 10px;
+    width: 50px;
+    height: 50px;
+    /* vertical-align: top; */
+
+}
+
+div>h1{
+    font-size: 60px;
+   
+    
+}
+.sub-headlines{
+    font-size: 28px;
+   margin-left: 40px;
+}
+.sub-headline{
+    padding-top: 16px;
+    font-weight: lighter;
+}
+.plus{
+    width: 30px;
+    height: 30px;
+    vertical-align: top;
+    filter: invert(37%) sepia(54%) saturate(6913%) hue-rotate(7deg) brightness(106%) contrast(106%);
+ 
+}
+.text{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    color: gray;
+}
+
+.action-btn{
+    background-color: orangered;
+    border-style: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    margin-right: 10px;
+    font-weight: lighter;
+    border-radius: 15px;
+}
+
+/* Right section */
+.right-section{
+    position: relative;
+}
+.discount-content{
+    position: absolute;
+    top: 310px;
+    left: 34px;
+    z-index: 3;
+    color: white;
+    
+}
+.discount-content>h4{
+    text-align: center;
+}
+.discount-content>h1{
+    font-size: 40px;
+}
+.discount{
+    position: absolute;
+    z-index: 2;
+   top: 280px;
+   width: 150px;
+  
+}
+.headphone{
+    position: absolute;
+    height: 100%;
+    z-index: 1;
+    left: 50px;
+    height: 500px;
+}
+.dots{
+    position: absolute;
+    top: 520px;
+    left: 240px;
+    font-size: 10px;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 12px;
+  }
+  .yellow-dot{
+    background-color: yellow;
+  }
+  .tomato-dot{
+    background-color: orangered;
+  }
+  .black-dot{
+    background-color: black;
+  }
+.add-btn{
+    position: absolute;
+    top: 590px;
+    left: 230px;
+    background-color: orangered;
+    border-style: none;
+    border-radius: 30px;
+    font-size: 18px;
+    color: white;
+    padding:8px 24px ;
+    font-weight: lighter;
+    
+}
